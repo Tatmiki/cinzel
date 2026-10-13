@@ -1,5 +1,6 @@
 build
 .obsidian
+imagens/saida
 
 # Relatório LaTeX: arquivos auxiliares
 relatorio/latex/build/
