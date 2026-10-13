@@ -1,3 +1,5 @@
 build
-external
 .obsidian
+
+# Relatório LaTeX: arquivos auxiliares
+relatorio/latex/build/

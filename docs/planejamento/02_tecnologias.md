@@ -6,7 +6,8 @@
 | ----------------- | -------------------------------- | ------------------------------------------------ |
 | Linguagem         | **C++17** (g++ 13)               | Todo o processamento e a interface               |
 | Build             | **CMake ≥ 3.16**                 | Compilação do projeto e download do ImGui        |
-| Leitura/escrita   | **stb_image / stb_image_write**  | Abrir PNG/JPG/BMP/TIF e salvar PNG (header-only) |
+| Leitura/escrita   | **stb_image / stb_image_write**  | Abrir PNG/JPG/BMP e salvar PNG (header-only) |
+| Leitura de TIFF   | **libtiff**                      | Abrir TIF/TIFF (o stb não lê TIFF)               |
 | Interface gráfica | **Dear ImGui** + GLFW + OpenGL 3 | Painel de controles, imagens, histogramas        |
 | Testes            | `assert` + executável próprio    | Conferir cálculos em matrizes pequenas           |
 | Relatório         | LaTeX                            | PDF final                                        |
@@ -89,7 +90,7 @@ GPU como textura.
 **SO utilizado**:  (Ubuntu 24.04) 
 
 ```bash
-sudo apt install cmake libglfw3-dev libgl1-mesa-dev
+sudo apt install cmake libglfw3-dev libgl1-mesa-dev libtiff-dev
 ```
 
 O próprio ImGui é baixado pelo CMake (`FetchContent`), sem instalação manual.
