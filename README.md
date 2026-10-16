@@ -10,7 +10,7 @@ e convolução genérica.
 
 ## Vídeo de explicação
 
-Apresentação e explicação do projeto: [LINK PARA O YOUTUBE](https://www.youtube.com/watch?v=t77hncHT9s)
+Apresentação e explicação do projeto: [LINK PARA O YOUTUBE](https://youtu.be/eIo5EQS-ExA)
 
 ## Dependências (Ubuntu)
 
